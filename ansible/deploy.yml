@@ -6,7 +6,7 @@
     - name: Copy WAR file to Tomcat
       copy:
         src: "/var/snap/jenkins/4865/workspace/MyMavenWebApp2-CICD-Pipeline/target/MyMavenWebApp2.war"
-        dest: "/opt/tomcat/webapps/MyMavenWebApp.war"
+        dest: "/opt/tomcat/webapps/MyMavenWebApp2.war"
         remote_src: no
 
     - name: Restart Tomcat
