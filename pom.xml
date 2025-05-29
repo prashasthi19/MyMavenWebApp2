@@ -24,12 +24,12 @@
   </dependencies>
   <build>
     <finalName>MyMavenWebApp2</finalName>
-    <plugins>
+  </build>
+  <plugins>
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
     <version>3.4.0</version> <!-- Update to latest stable version -->
-</plugin>
-</plugins>
-  </build>
+  </plugin>
+  </plugins>
 </project>
